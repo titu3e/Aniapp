@@ -52,6 +52,21 @@ The Anniversary App creates a romantic experience where boyfriends can set up au
 - Android SDK 24+ (Android 7.0+)
 - Firebase project setup
 - Kotlin 1.9.22+
+- JDK 17+ (for GitHub Actions builds)
+
+### ⚡ Quick Build with GitHub Actions
+The project includes automated GitHub Actions workflows that will build the APK automatically:
+
+🎯 **[📋 Follow the Quick Setup Guide](SETUP.md)** for step-by-step instructions!
+
+**TL;DR:**
+1. **Fork this repository** to your GitHub account
+2. **Add your Firebase config**: Replace `app/google-services.json` with your Firebase project config
+3. **Push to main branch**: GitHub Actions will automatically build the APK
+4. **Download APK**: Check the "Actions" tab and download the `anniversary-app-debug` artifact
+
+### 🛠️ Build Status
+The app now includes fixed Material Design 3 themes and proper Gradle configuration for reliable CI/CD builds.
 
 ### Firebase Setup
 

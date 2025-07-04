@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.AnniversaryApp" parent="Theme.Material3.DayNight.NoActionBar">
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Base Material 3 theme -->
+    <style name="Base.Theme.AnniversaryApp" parent="Theme.Material3.DayNight">
+        <!-- Primary colors -->
         <item name="colorPrimary">@color/pink_primary</item>
-        <item name="colorPrimaryVariant">@color/pink_primary_dark</item>
-        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pink_light</item>
+        <item name="colorOnPrimaryContainer">@color/pink_primary_dark</item>
+        
+        <!-- Secondary colors -->
         <item name="colorSecondary">@color/pink_secondary</item>
-        <item name="colorSecondaryVariant">@color/pink_secondary_dark</item>
-        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/pink_light</item>
+        <item name="colorOnSecondaryContainer">@color/pink_primary_dark</item>
+        
+        <!-- Background colors -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/gray_dark</item>
+        <item name="android:colorBackground">@color/white</item>
+        
+        <!-- Status bar -->
         <item name="android:statusBarColor">@color/pink_primary</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
+
+    <!-- NoActionBar variant -->
+    <style name="Theme.AnniversaryApp" parent="Base.Theme.AnniversaryApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
 </resources>
