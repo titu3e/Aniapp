@@ -1,0 +1,3 @@
+# This is a placeholder for gradle-wrapper.jar
+# In a real project, this would be the actual Gradle wrapper JAR file
+# For GitHub Actions, it will download this automatically when gradlew runs
