@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anniversary App</string>
+    <string name="anniversary_celebration">Anniversary Celebration</string>
+    <string name="celebrate_love">Celebrate your love every month</string>
+    <string name="choose_role">Choose your role:</string>
+    <string name="im_boyfriend">I\'m the Boyfriend</string>
+    <string name="im_girlfriend">I\'m the Girlfriend</string>
+    <string name="setup_messages">Set up anniversary messages</string>
+    <string name="receive_messages">Receive anniversary messages</string>
+    <string name="start_setup">Start Setup</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="setup_anniversary">Setup Anniversary</string>
+    <string name="anniversary_messages">Anniversary Messages</string>
+    <string name="your_name">Your Name</string>
+    <string name="relationship_start_date">Relationship Start Date</string>
+    <string name="create_anniversary_setup">Create Anniversary Setup</string>
+    <string name="share_code_with_girlfriend">Share this code with your girlfriend:</string>
+    <string name="enter_6_digit_code">Enter the 6-digit code your boyfriend shared with you</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="no_messages_yet">No messages yet!</string>
+    <string name="boyfriend_still_setting_up">Your boyfriend is still setting up your anniversary messages. Check back soon!</string>
+    <string name="welcome_anniversary_journey">💕 Welcome to Your Anniversary Journey! 💕</string>
+    <string name="made_with_love">Made with ❤️ for celebrating love</string>
+    <string name="create_anniversary_message">Create Anniversary Message</string>
+    <string name="title_optional">Title (Optional)</string>
+    <string name="anniversary_message_required">Anniversary Message *</string>
+    <string name="background_color">Background Color</string>
+    <string name="add_confetti_animation">Add Confetti Animation 🎊</string>
+    <string name="preview">Preview:</string>
+    <string name="create_message">Create Message</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_first_message">Create First Message</string>
+</resources>
